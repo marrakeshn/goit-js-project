@@ -1,0 +1,60 @@
+header {
+    padding-top: 38px;
+    .header__justify {
+        @media screen and (min-width: 768px) {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    .header__nav {
+        display: none;
+        @media screen and (min-width: 768px) {
+            display: block;
+            &__item {
+                    margin-right: 40px;
+            
+                }
+        }
+        &__list {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        &__link {
+
+        }
+    }
+
+    .header__contacts {
+        display: flex;
+    }
+
+    .contacts {}
+
+    .contacts__list {
+        display: flex;
+    }
+
+    .contacts__list__item {
+        margin-right: 18px;
+    }
+
+    .contacts__list__item:last-of-type {
+        margin-right: 0;
+    }
+
+    .contacts__list__link {}
+
+    .contacts__list__icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .telegram {}
+
+    .github {}
+
+    .linkedin {}
+}
+
